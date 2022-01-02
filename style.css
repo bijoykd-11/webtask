@@ -1,0 +1,79 @@
+body {
+    color: white;
+    font: 300 14px/24px "Open Sans", Sans-Serif;
+    margin: 0px;
+    justify-content: center;
+
+}
+.main {
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+    position: relative;
+    align-content: center;
+}
+.box {
+    position: relative;
+    z-index: 2;
+    width: 300px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 0px black;
+}
+.top {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.inner-items{
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: black;
+}
+.horizontal-bar {
+    position: absolute;
+    left: 35px;
+    height: 100%;
+    width: 3px;
+    background-color: gray;
+}
+.notification {
+    position: relative;
+    padding-left: 31px;
+    padding-top: 20px;
+    z-index: 2;
+}
+.bullet {
+    background-color: white;
+    color: blue;
+    position: absolute;
+    align-content: center;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: 2px blue solid;
+}
+.notification p {
+    margin-top: 0;
+    padding: 0 15px;
+}
+.time {
+    left: 16px;
+    position: relative;
+    font-size: 12px;
+    display: block;
+    line-height: 1;
+}
